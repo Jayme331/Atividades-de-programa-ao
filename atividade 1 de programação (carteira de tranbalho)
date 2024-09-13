@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace roberto_denilson
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Olá mundo");
+
+            /* Algoritimo 1: Carteira de motorista
+             - Dada a idade de uma pessoa 
+             - caso a idade seja maior ou igual a 18, pode tirar a carteira
+             - senão, não pode
+            */
+            int idade = 16;
+            if (idade >= 18)
+            {
+                Console.WriteLine("Pode tirar carteira. ");
+            }
+            if (idade <= 18)
+            {
+                Console.WriteLine("Não pode tirar carteira. ");
+            }
+        }
+    }
+}
